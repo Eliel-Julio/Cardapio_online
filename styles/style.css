@@ -16,18 +16,21 @@ body{
         border-radius: 20px;
         overflow: hidden;
         div#sup{
-            width: calc(1080px/3);height: calc(1920px/6);
-            background-color: rgb(161, 161, 161);
+            width: calc(1080px/3);height: calc(1920px*0.35/3);
+            /* background-color: rgb(161, 161, 161); */
             div#img{
-                width: 70%;height: 70%;
+                width: 75%;height: 70%;
                 position: relative;
-                background-color: rgb(137, 77, 77);
+                /* background-color: rgb(137, 77, 77); */
                 margin: auto;
-                top: 30px;
+                top: 10px;
+                img{
+                    width: 100%;
+                }
             }
         }
         div#sub{
-            width: calc(1080px/3);height: calc(1920px/6);
+            width: calc(1080px/3);height: calc(1920px*0.65/3);
             background-color: rgb(197, 195, 195);
             div#head{
                 width: calc(1080px/3);height: 20%;
@@ -37,6 +40,17 @@ body{
                 width: 70%;height: 60%;
                 margin: auto;
                 background-color: rgba(154, 119, 86, 0.5);
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                div.option{
+                    width: 47%;height: 47%;
+                    background-color: rosybrown;
+                    img{
+                        position: relative;
+                        width: 100%;
+                    }
+                }
             }
             div#butao{
                 width: calc(1080px/3);height: 20%;
