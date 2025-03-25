@@ -28,7 +28,9 @@ body{
                 img{
                     width: 100%;
                     border-radius: 50%;
-                    box-shadow: 2px 5px 5px black;
+                    box-shadow: 5px 5px 10px black;
+                    animation: identifier 10s infinite linear;
+                    
                 }
             }
         }
@@ -94,5 +96,10 @@ body{
                 }
             }
         }
+    }
+}
+@keyframes identifier {
+    100%{
+        transform: rotate(360deg);
     }
 }
