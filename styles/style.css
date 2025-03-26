@@ -95,7 +95,7 @@ body{
                         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.605);
                         &:hover{
                             filter: saturate(1.1);
-                            animation: girar 5s infinite linear;
+                            animation: girar 10s infinite linear;
                             
                         }
                     }
