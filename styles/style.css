@@ -25,6 +25,7 @@ body{
         background-color: white;
         border-radius: 20px;
         overflow: hidden;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.362);
         div#sup{
             width: calc(1080px/3);height: calc(1920px*0.35/3);
             /* background-color: rgb(161, 161, 161); */
@@ -50,6 +51,7 @@ body{
             align-items: center;
             justify-content: space-evenly;
             animation-play-state: paused;
+            box-shadow: inset 0px 5px 4px rgba(0, 0, 0, 0.57);
             div#head{
                 width: calc(1080px/3);height: 22%;
                 /* background-color: rgba(251, 165, 83, 0.5); */
